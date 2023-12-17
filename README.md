@@ -88,3 +88,9 @@ curl --location --request DELETE 'http://localhost:80/api/users/1' \
 python proxy.py
 ```
 You can test this proxy by adding `-x http://localhost:8080` to `curl`
+
+### Unfinished Tasks
+
+Unfortunately, I was unable to complete the following task within the given time frame:
+1. Web Server with Django and Python: I can work on Flask but i don't have experience with Django, so i can't finish it
+2. API Proxy with Python: To be honest i developed proxy server with python, but i don't know why it doesn't work :)
