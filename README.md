@@ -72,6 +72,7 @@ curl --location --request PUT 'http://localhost:80/api/users/1' \
 }'
 ```
 ##### Delete user
+```
 curl --location --request DELETE 'http://localhost:80/api/users/1' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -79,6 +80,7 @@ curl --location --request DELETE 'http://localhost:80/api/users/1' \
     "username": "tuankg1028",
     "password": "Test123"
 }'
+```
 ### Setup Proxy
 
 1. Run proxy server
